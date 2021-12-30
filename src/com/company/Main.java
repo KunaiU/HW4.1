@@ -5,7 +5,7 @@ import java.util.Random;
 public class Main {
     public static int [] heroesHealth = {170, 130, 180, 125};
     public static int [] heroesDamage = {30, 45, 39, 0};
-    public static int medicsHealing = (int) (Math.random()*350);
+    public static int medicsHealing = (int) (Math.random()*35);
     public static String[] attackType = {"Physical", "Magical","Aura","Healing"};
     public static String[] heroesNames = {"Warrior", "Mage", "Damage dealer", "Medic"};
     public static int demonLordHealth = 666;
